@@ -1,0 +1,30 @@
+[project]
+name = "wangku"
+version = "1.0.0"
+description = "Aplikasi kewangan pelajar untuk mengurus elaun, perbelanjaan dan matlamat simpanan."
+requires-python = ">=3.12"
+authors = [
+    { name = "khsteam", email = "m-12742985@moe-dl.edu.my" }
+]
+dependencies = [
+    "flet",
+    "flet-charts",
+    "flet-camera"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Wangku"
+
+[tool.flet]
+org = "dev.flet"
+company = "khsteam"
+copyright = "Copyright (C) 2026 by khsteam"
+
+[tool.flet.app]
+path = "src"
